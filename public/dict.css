@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    font-size: 0.8rem;
+    padding: 0.6rem 1.3rem;
+    border-radius: 0.1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 250ms ease-out;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.414);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-word {
+    display: none;
+}
+
+.main {
+    border: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    height: auto;
+}
+
+.definition {
+    margin-top: 20px;
+}
+
+input {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 5px;
+    font-size: 1rem;
+    min-width: 60%;
+}
+
+input:focus {
+    outline: none;
+}
